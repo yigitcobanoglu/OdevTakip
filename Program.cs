@@ -1,4 +1,4 @@
-namespace OdevTakip
+﻿namespace OdevTakip
 {
     internal static class Program
     {
@@ -11,7 +11,14 @@ namespace OdevTakip
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Password form = new Password();
+            var cevap = form.ShowDialog();//bloklanýyor ve cevap bekleniyor
+
+            if (cevap == DialogResult.OK)
+            {
+                Application.Run(new Form1());
+            }
+
         }
     }
 }

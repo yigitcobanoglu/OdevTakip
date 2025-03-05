@@ -68,7 +68,7 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(643, 74);
+            panel1.Size = new Size(650, 74);
             panel1.TabIndex = 0;
             // 
             // label9
@@ -344,7 +344,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(643, 668);
+            ClientSize = new Size(650, 668);
             Controls.Add(cbSınıf);
             Controls.Add(btnSil);
             Controls.Add(btnYeni);

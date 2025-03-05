@@ -44,15 +44,15 @@ namespace OdevTakip
         }
         void YeniEkle()
         {
-            Ogrenci yeniOgr = new()//Yeni bir ogrenci oluşturduk
+            Ogrenci yeniOgr = new();//Yeni bir ogrenci oluşturduk
                 //Verilern formda kontrollerden aldık
            cbSınıf.Items.AddRange(sınıflar);
-            Ogr yeniPers = new();
+            Ogrenci yeniPers = new();
             yeniPers.Ad = txtAd.Text;
             yeniPers.Soyad = txtSoyad.Text;
             yeniPers.Sınıf = cbSınıf.SelectedIndex;
-            yeniPers.Konu = txtOdevkonu.Text;
-            yeniPers.Numara = txtNo.Text;
+            yeniPers.OdevKonusu = txtOdevkonu.Text;
+            yeniPers.No = txtNo.Text;
 
 
             liste.Add(yeniPers);
