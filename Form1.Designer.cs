@@ -209,7 +209,7 @@
             // txtAd
             // 
             txtAd.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            txtAd.Location = new Point(339, 106);
+            txtAd.Location = new Point(339, 111);
             txtAd.Name = "txtAd";
             txtAd.Size = new Size(146, 33);
             txtAd.TabIndex = 4;
