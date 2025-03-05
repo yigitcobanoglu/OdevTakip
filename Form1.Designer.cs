@@ -333,7 +333,7 @@
             // 
             cbSınıf.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 162);
             cbSınıf.FormattingEnabled = true;
-            cbSınıf.Location = new Point(338, 261);
+            cbSınıf.Location = new Point(337, 256);
             cbSınıf.Name = "cbSınıf";
             cbSınıf.Size = new Size(145, 33);
             cbSınıf.TabIndex = 7;
